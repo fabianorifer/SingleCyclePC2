@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jun  5 13:07:43 2025
+# Process ID: 19516
+# Current directory: C:/Users/luisr/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12332
+# Log file: C:/Users/luisr/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/luisr/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: Fabiano, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 17044 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/luisr/SingleCycle/SingleCycle.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+archive_project C:/Users/luisr/SingleCycle.xpr.zip -temp_dir C:/Users/luisr/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19516-Fabiano -force -include_local_ip_cache -include_config_settings
